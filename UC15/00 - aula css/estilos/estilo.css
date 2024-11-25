@@ -1,0 +1,53 @@
+body {
+    background-color: burlywood;
+}
+h1{
+    width: 24%;
+    font-size: 20pt;
+    border: double brown;
+    margin: 1;
+    padding: 3px 10px 3px 10px;
+}
+h1,
+h2 {
+    color: blueviolet;
+}
+
+p {
+    color: red;
+    width: 20%;
+    border: 4px dotted black;
+    background-color: lemonchiffon;
+    padding: 10px;
+}
+
+.p_ing {
+    color: darkturquoise;
+    width: 20%;
+    border: 4px dotted black;
+    background-color: lemonchiffon;
+}
+
+#mod_prep {
+    color: dodgerblue;
+    width: 50%;
+    border: 4px dotted black;
+    background-color: lemonchiffon;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 10
+}
