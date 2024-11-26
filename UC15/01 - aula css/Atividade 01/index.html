@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Introdução ao CSS</title>
+
+    <!-- Declarando o css interno-->
+    <style id="Cssint">
+    #Cssint{
+    color: brown;
+    }
+    </style>
+
+    <!--Efetuando a conexão com o arquivo CSS externo-->
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+  </head>
+
+  <body>
+    <h1>Tipos de Css</h1>
+    <!--Três tipos de css, o inline, o interno e o externo -->
+
+    <h2 style="color: blue;">h2 style="color: blue;"</h2>
+    <p style="color: blue;">O código das regras CSS é declarado dentro da tag a qual se referem.</p>
+
+    <h2 id="Cssint">CSS interno</h2>
+
+    <p id="Cssint">
+      O código das regras CSS é declarados na seção "head", utilizando a tag
+      "style".
+    </p>
+
+    <h2 class="CssExt">CSS Externo</h2>
+
+    <p class="CssExt">
+      Um arquivo CSS contendo todas as regras de estilo é anexado ao arquivo
+      HTML.
+    </p>
+
+    <h2>Testandos as possibilidades do CSS</h2>
+
+    <p>
+      Em um arquivo CSS externo, faça as alterações de estilização indicadas no
+      texto.
+      <br />
+      Em caso de dúvida, chame a professora ou consulte o tutorial do
+      <a href="https://developer.mozilla.org/pt-BR/docs/Learn/CSS">link</a>.
+    </p>
+
+    <p id="p1">
+      Usando a ID dessa TAG como seletor, altere o estilo desse texto. Esse
+      métodos é ideal para aplicar estilos a muitas páginas.p>
+    </p>
+
+    <p class="p-geral">
+      Esse e o próximo parágrafos possuem a mesma classe. Use a classe como
+      seletor para alterar a cor da fonte, adicionar uma cor de fundo e
+      justificar o alinhamento do texto.
+    </p>
+    <p class="p-geral">Esse é o segundo parágrafo.</p>
+
+    <h3>
+      Existe outra forma de agrupar as estilização além do uso de classes. Nesse
+      método os seletores são as próprias tags.
+    </h3>
+    <h4>Estilize a fonte das tags h3 e h4 as agrupando com a vírgula.</h4>
+
+    <h3>Unidade de Medida no CSS</h3>
+
+    Se quiser saber mais sobre, leia o
+    <a
+      href="https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Values_and_units"
+      >link</a
+    >.
+
+    <p class="percentual">
+      Altere o tamanho da fonte desse parágrafo usando a unidade de medida
+      percentual.
+    </p>
+    <p class="em">
+      Altere o tamanho da fonte desse parágrafo usando a unidade de medida em.
+    </p>
+    <p class="pt">
+      Altere o tamanho da fonte desse parágrafo usando a unidade de medida pt.
+    </p>
+    <p class="px">
+      Altere o tamanho da fonte desse parágrafo usando a unidade de medida px.
+    </p>
+
+    <h3>Estilo de fontes</h3>
+
+    <p class="normal">
+      Escreva os próximos parágrafos com as seguintes formatações:
+    </p>
+    <p class="italic">Parágrafo itálico</p>
+    <p class="oblique">Parágrafo obliquo</p>
+
+    <h3>Alinhamento de texto</h3>
+    <p>Alinhe os parágrafos a seguir conforme as formatações:</p>
+    <p class="centro">Parágrafo alinhado no centro</p>
+    <p class="direita">Parágrafo alinhado a direita</p>
+    <p class="justificada">Parágrafo com alinhamento justificado</p>
+
+    <hr />
+  </body>
+</html>

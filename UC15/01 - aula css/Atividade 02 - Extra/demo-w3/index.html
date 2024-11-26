@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sobre a Fórmula 1</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma" />
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Karma", sans-serif;
+    }
+
+    .w3-bar-block .w3-bar-item {
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Sidebar (hidden by default) -->
+  <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left"
+    style="display: none; z-index: 2; width: 40%; min-width: 300px" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Fechar Menu</a>
+    <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Equipes</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Sobre</a>
+  </nav>
+
+  <!-- Top menu -->
+  <div class="w3-top">
+    <div class="w3-white w3-xlarge" style="max-width: 1200px; margin: auto">
+      <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+      <div class="w3-right w3-padding-16">Contato</div>
+      <div class="w3-center w3-padding-16">Equipes de Fórmula 1</div>
+    </div>
+  </div>
+
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main w3-content w3-padding" style="max-width: 1200px; margin-top: 100px">
+    <!-- First Photo Grid-->
+    <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+      <div class="w3-quarter">
+        <img src="w3images/redbull.jpg" alt="Sandwich" style="width: 100%" />
+        <h3>Oracle Red Bull Racing, O Touro Veloz</h3>
+        <p>
+          Dominante nos últimos anos, com desempenho excepcional, especialmente após a chegada de Max Verstappen. Famosa
+          por sua inovação em aerodinâmica e tecnologia.
+        </p>
+      </div>
+      <div class="w3-quarter">
+        <img src="w3images/mercedesf1.jpg" alt="Steak" style="width: 100%" />
+        <h3>Mercedes-AMG Petronas Formula One Team, A Flecha de Prata</h3>
+        <p>
+          Considerada uma das equipes mais vitoriosas na era híbrida (2014-2020), com uma forte base técnica e foco em
+          consistência.
+        </p>
+      </div>
+      <div class="w3-quarter">
+        <img src="w3images/ferrari.jpg" alt="Cherries" style="width: 100%" />
+        <h3>Ferrari, O Cavalino Rampante</h3>
+        <p>A equipe mais histórica da Fórmula 1, com um enorme legado de títulos e paixão. Tende a ser imprevisível,
+          alternando entre temporadas vitoriosas e outras de dificuldades.</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="w3images/astonmartin.jpg" alt="Pasta and Wine" style="width: 100%" />
+        <h3>Aston Martin, O Verde do Rei</h3>
+        <p>Após a compra da Racing Point, se transformou em uma equipe de destaque, com foco em inovação e performance.
+          A introdução do carro verde é sua marca registrada.</p>
+      </div>
+    </div>
+
+    <!-- Second Photo Grid-->
+    <div class="w3-row-padding w3-padding-16 w3-center">
+      <div class="w3-quarter">
+        <img src="w3images/mclaren.png" alt="Popsicle" style="width: 100%" />
+        <h3>McLaren, O Falcão de Asfalto</h3>
+        <p>Famosa por seu histórico vencedor e pelo desenvolvimento de carros rápidos e tecnologicamente avançados. Nos
+          últimos anos, está em processo de reconstrução e busca por títulos.</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="w3images/Alpine-f1.jpeg" alt="Salmon" style="width: 100%" />
+        <h3>Alpine F1 Team, A Montanha Ágil</h3>
+        <p>
+          Formada a partir da Renault, esta equipe se destaca por sua estratégia de inovação e pela busca constante por
+          resultados na parte intermediária do grid.
+        </p>
+      </div>
+      <div class="w3-quarter">
+        <img src="w3images/Williams-F1.jpg" alt="Sandwich" style="width: 100%" />
+        <h3>Williams Racing, A Fênix do Circuito</h3>
+        <p>
+          Uma das equipes mais tradicionais, mas que recentemente luta para voltar ao topo. Tem uma forte história de
+          sucesso, mas enfrenta desafios financeiros e técnicos.
+        </p>
+      </div>
+      <div class="w3-quarter">
+        <img src="w3images/Visa Cash App RB F1 Team 022824.jpeg" alt="Croissant" style="width: 100%" />
+        <h3>Visa Cash App RB, O Touro Corredor</h3>
+        <p>
+          Equipe irmã da Red Bull, com foco em jovens pilotos e em usar o carro como plataforma para testar novas
+          ideias.
+        </p>
+      </div>
+    </div>
+
+    <!-- Pagination -->
+    <div class="w3-center w3-padding-32">
+      <div class="w3-bar">
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+        <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+      </div>
+    </div>
+
+    <hr id="about" />
+
+    <!-- About Section -->
+    <div class="w3-container w3-padding-32 w3-center">
+      <h3>Sobre</h3>
+      <br />
+      <img src="w3images/formula-1.png" alt="Me" class="w3-image" style="display: block; margin: auto" width="300"
+        height="533" />
+      <div class="w3-padding-32">
+        <h4><b>O suprasumo do automobilismo</b></h4>
+        <h6><i>Sobre a Fórmula 1</i></h6>
+        <p>
+          A Fórmula 1 (F1) é a principal categoria de automobilismo mundial, composta por uma série de corridas chamadas
+          Grandes Prêmios (GPs), realizadas em pistas ao redor do mundo. Os carros da F1 são os mais avançados
+          tecnologicamente, projetados para atingir altíssimas velocidades e proporcionar o máximo de desempenho em
+          termos de aerodinâmica, potência e segurança.
+        </p>
+      </div>
+    </div>
+    <hr />
+
+    <!-- Footer -->
+    <footer class="w3-row-padding w3-padding-32">
+      <div class="w3-third">
+        <h3>Fórmula 1</h3>
+        <p>
+          Todos os direitos não reservados
+        </p>
+      </div>
+
+      <div class="w3-third">
+        <h3>Notícias</h3>
+        <ul class="w3-ul w3-hoverable">
+          <li class="w3-padding-16">
+            <img src="w3images/F1-colapinto-las-vegas-2024-batida-classificacao.jpg" class="w3-left w3-margin-right"
+              style="width: 50px" />
+            <span class="w3-large">Colapinto bate em Las Vegas</span><br />
+            <span>Williams com problema orçamentário por causa das colisões.</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="w3images/max-verstappen-campeon-del-mun-2.webp" class="w3-left w3-margin-right"
+              style="width: 50px" />
+            <span class="w3-large">Verstappen consegue Tetracampeonato em Las Vegas</span><br />
+            <span>Holandês conseguiu a vitória do campeonato 2 corridas antes do fim da temporada.</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-third w3-serif">
+        <h3>Tags Populares</h3>
+        <p>
+          <span class="w3-tag w3-black w3-margin-bottom">#Formula1</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">#F1</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">#F1Racing</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">#AyrtonSenna</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">#LewisHamilton</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">#MaxVerstappen</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">#RedBullRacing</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">#Ferrari</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">#MercedesF1</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">#McLaren</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">#Formula1Fan</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">#GrandPrix</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">#Motorsport</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">#F1News</span>
+        </p>
+      </div>
+    </footer>
+
+    <!-- End page content -->
+  </div>
+
+  <script>
+    // Script to open and close sidebar
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
+</body>
+
+</html>

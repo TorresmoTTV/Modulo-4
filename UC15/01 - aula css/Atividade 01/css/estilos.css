@@ -1,0 +1,61 @@
+.CssExt {
+    color: red;
+}
+
+#p1 {
+    color: blue;
+    font-weight: bold;
+}
+
+.p-geral {
+    text-shadow: 0 0 3px black, 0 0 5px bisque;
+}
+
+h3,
+h4 {
+    text-decoration: underline dotted brown 3px;
+    font-weight: bold;
+    color: green;
+}
+
+.percentual {
+    font-size: 120%;
+}
+
+.em {
+    font-size: 2em;
+}
+
+.pt {
+    font-size: 20pt;
+}
+
+.px {
+    font-size: 20px;
+}
+
+.normal {
+    color: black;
+}
+
+.italic {
+    color: black;
+    font-style: italic;
+}
+
+.oblique {
+    color: black;
+    font-style:oblique 50deg;
+}
+
+.centro {
+    text-align: center;
+}
+
+.direita {
+    text-align: right;
+}
+
+.justificada {
+    text-align: justify;
+}
