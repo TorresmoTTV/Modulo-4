@@ -1,0 +1,53 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    margin: 1%;
+}
+
+.p-cent {
+    text-align: center;
+}
+
+.p-just {
+    text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#h1-pri {
+    font-size: 28pt;
+}
+
+#h1-ins {
+    font-size: 20pt;
+}
+
+#h2-camp {
+    font-size: 20pt;
+}
+
+hr {
+    background-color: #FFa500;
+    height: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.img-ban {
+    border-radius: 10px;
+}
+
+.img-ban-gra {
+    border-radius: 100px;
+}

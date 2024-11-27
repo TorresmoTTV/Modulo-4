@@ -1,0 +1,1 @@
+Essa pasta contém o projeto do desafio 02 completo. Você pode usar ele para dar seguimento ao curso, ou pode usar os arquivos que você escreveu na aula do dia 22/11.
