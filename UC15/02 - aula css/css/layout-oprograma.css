@@ -1,0 +1,18 @@
+.p-psg {
+    text-align: left;
+}
+
+#img-cor {
+    width: 200px; 
+    height: auto; 
+    margin-top: 10px;
+    border-radius: 10px 100px / 100px;
+}
+
+#bt-dire{
+    background-color: #FFa500;
+    width: 20%;
+    padding: 1%;
+    border-radius: 10%;
+    margin: 10px 0px 10px 0px;
+}
