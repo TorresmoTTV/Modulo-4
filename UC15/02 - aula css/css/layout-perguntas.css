@@ -1,0 +1,15 @@
+.h2-sub {
+    text-align: left;
+}
+
+.img-faq {
+    width: 50%;
+    border: 5px;
+    border-radius: 12px;
+    border-color: grey blue grey blue;
+    border-style: inset;
+}
+
+li {
+    text-align: justify;
+}

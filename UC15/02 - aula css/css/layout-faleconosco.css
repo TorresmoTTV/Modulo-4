@@ -1,0 +1,14 @@
+table {
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    height: auto;
+}
+
+.td-rig {
+    text-align: right;
+}
+
+.td-lef {
+    text-align: left;
+}

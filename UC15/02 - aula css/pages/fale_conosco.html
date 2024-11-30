@@ -5,16 +5,18 @@
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" href="../css/reset.css">
 		<link rel="stylesheet" href="../css/estilo.css">
+		<link rel="stylesheet" href="../css/layout-faleconosco.css">
 	</head>
 <body>
-<p align="center">
+<header>
+<p>
 <a href="../index.html">
 <img src="../img/senac_logo_new.png" 
 alt="Logotipo SenacRS" 
 title="Logotipo SenacRS" />
 </a>
 </p>
-<p align="center">
+<p>
 <a href="https://www.facebook.com/senacrsoficial" target="blank">
 <img src="../img/icon_facebook.png" 
 alt="Rede social Facebook" 
@@ -48,7 +50,7 @@ title="Canal Spotify" hspace="2" />
 </p>
 <hr />
 <!--Menu do sistema -->
-<h1 align="center">
+<h1>
 <a href="../index.html">Home</a>|
 <a href="./oprograma.html">O programa</a>|
 <a href="./inscrever.html">Como se inscrever</a>|
@@ -56,18 +58,18 @@ title="Canal Spotify" hspace="2" />
 <a href="./perguntas.html">Perguntas frequentes</a>|
 <a href="./fale_conosco.html">Fale Conosco</a>
 </h1>
+</header>
+<main>
 <hr />
-<img src="../img/banner_programa.jpg" width="100%" 
-height="auto" alt="Banner Programa" 
+<img src="../img/banner_programa.jpg" class="img-ban" alt="Banner Programa" 
 title="Banner programa Senac gratuidade" />
 
-<h1 align="center">Fale conosco</h1>
+<h1>Fale conosco</h1>
 <form action="../index.html" method="post">
-	<table align="center" width="500" 
-	height="auto">
+	<table>
 		<thead>
 			<tr>
-				<td colspan="2" align="center">
+				<td align="center" colspan="2">
 				<h3>
 				Todos os campos são obrigatórios.
 				</h3>
@@ -76,64 +78,64 @@ title="Banner programa Senac gratuidade" />
 		</thead>
 		<tbody>
 			<tr>
-				<td align="right">
+				<td class="td-rig">
 				<h3>Nome:</h3>
 				</td>
-				<td align="left">
+				<td class="td-lef">
 				<input type="text" name="nome" 
 				required maxlength="20"/>
 				</td>
 			</tr>
 			<tr>
-				<td align="right">
+				<td class="td-rig">
 				<h3>Sobrenome:</h3>
 				</td>
-				<td align="left">
+				<td class="td-lef">
 				<input type="text" name="sobrenome" 
 				required size="30" maxlength="20"/>
 				</td>
 			</tr>
 			<tr>
-				<td align="right">
+				<td class="td-rig">
 				<h3>Data de nascimento:</h3>
 				</td>
-				<td align="left">
+				<td class="td-lef">
 				<input type="date" name="datanasc" 
 				required />
 				</td>
 			</tr>
 			<tr>
-				<td align="right">
+				<td class="td-rig">
 				<h3>Endereço:</h3>
 				</td>
-				<td align="left">
+				<td class="td-lef">
 				<input type="text" name="endereco" 
 				required size="30" maxlength="30"/>
 				</td>
 			</tr>
 			<tr>
-				<td align="right">
+				<td class="td-rig">
 				<h3>Bairro:</h3>
 				</td>
-				<td align="left">
+				<td class="td-lef">
 				<input type="text" name="bairro" 
 				required size="30" maxlength="30"/>
 				</td>
 			</tr>
 			<tr>
-				<td align="right">
+				<td class="td-rig">
 				<h3>Cidade:</h3>
 				</td>
-				<td align="left">
+				<td class="td-lef">
 				<input type="text" name="cidade" 
 				required size="30" maxlength="30"/>
 				</td>
 			</tr>
 			<tr>
-				<td align="right">
+				<td class="td-rig">
 				<h3>UF:</h3>
 				</td>
-				<td align="left">
+				<td class="td-lef">
 				<select name="uf" required>
 <option value="Acre">Acre</option>
 <option value="Alagoas">Alagoas</option>
@@ -166,10 +168,10 @@ title="Banner programa Senac gratuidade" />
 				</td>
 			</tr>
 			<tr>
-				<td align="right">
+				<td class="td-rig">
 				<h3>Sexo:</h3>
 				</td>
-				<td align="left">
+				<td class="td-lef">
 				<input type="radio" name="sexo" 
 				value="M" checked />Masculino
 				<input type="radio" name="sexo" 
@@ -177,49 +179,49 @@ title="Banner programa Senac gratuidade" />
 				</td>
 			</tr>
 			<tr>
-				<td align="right">
+				<td class="td-rig">
 					<h3>Telefone:</h3>
 				</td>
-				<td align="left">
+				<td class="td-lef">
 				<input type="tel" name="telefone" 
 				required />
 				</td>
 			</tr>
 			<tr>
-				<td align="right">
+				<td class="td-rig">
 					<h3>E-mail:</h3>
 				</td>
-				<td align="left">
+				<td class="td-lef">
 				<input type="email" name="email" 
 				placeholder="nome@dominio.com" 
 				required />
 				</td>
 			</tr>
 			<tr>
-				<td align="right">
+				<td class="td-rig">
 					<h3>Usuário:</h3>
 				</td>
-				<td align="left">
+				<td class="td-lef">
 				<input type="text" name="usuario" 
 				required />
 				</td>
 			</tr>
 			<tr>
-				<td align="right">
+				<td class="td-rig">
 					<h3>Senha:</h3>
 				</td>
-				<td align="left">
-				<input type="password" name="senha" 
+				<td class="td-lef">
+				<input type="password" name="senha"
 				required />
 				</td>
 			</tr>
 			<tr>
-				<td align="right">
+				<td class="td-rig">
 					<h3>Observação</h3>
 				</td>
-				<td align="left">
-				<textarea name="obs" 
-				rows="6" cols="30" required>				
+				<td class="td-lef">
+				<textarea name="obs"
+				rows="6" cols="30" required>
 				</textarea>
 				</td>
 			</tr>
@@ -236,10 +238,10 @@ title="Banner programa Senac gratuidade" />
 		</tfoot>	
 	</table>
 </form>
-
-
+</main>
+<footer>
 <hr />
-<h2 align="center">
+<h2>
 <a href="../index.html">Home</a>|
 <a href="./oprograma.html">O programa</a>|
 <a href="./inscrever.html">Como se inscrever</a>|
@@ -248,11 +250,11 @@ title="Banner programa Senac gratuidade" />
 <a href="./fale_conosco.html">Fale Conosco</a>
 </h2>
 <hr />
-<p align="center">
+<p>
 <img src="../img/senac_logo_new.png" 
 alt="Logotipo Senac" title="logotipo Senac">
 </p>
-<p align="center">
+<p>
 <a href="https://www.facebook.com/senacrsoficial" target="blank">
 <img src="../img/icon_facebook.png" 
 alt="Rede social Facebook" 
@@ -284,8 +286,9 @@ alt="Canal Spotify"
 title="Canal Spotify" hspace="2" />
 </a>
 </p>
-<p align="center">
+<p>
 © Todos os Direitos Reservados - 2024.
 </p>
+</footer>
 </body>	
 </html>
