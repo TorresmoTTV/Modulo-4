@@ -5,6 +5,11 @@ table {
     height: auto;
 }
 
+#td-sub {
+    text-align: center;
+    column-span: 2;
+}
+
 .td-rig {
     text-align: right;
 }
