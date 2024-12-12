@@ -1,0 +1,1 @@
+//Crie um array com 5 números e mostre a soma deles.
