@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modelo de carrinho de compras</title>
+  <link rel="stylesheet" href="estilos/estilo.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Simple JavaScript Shopping Cart</h1>
+    <p>
+      Simplified 'add to cart' functionality. Uses Javascript and WebStorage
+      API/Cookies to remember cart data converted to JSON format.
+    </p>
+    <p>Click 'Empty Cart' button to remove session cookies from browser.</p>
+    <div id="alerts"></div>
+    <div class="cart-container">
+      <h2>Cart</h2>
+      <table>
+        <thead>
+          <tr>
+            <th><strong>Product</strong></th>
+            <th><strong>Price</strong></th>
+          </tr>
+        </thead>
+        <tbody id="carttable"></tbody>
+      </table>
+      <hr />
+      <table id="carttotals">
+        <tr>
+          <td><strong>Items</strong></td>
+          <td><strong>Total</strong></td>
+        </tr>
+        <tr>
+          <td>x <span id="itemsquantity">0</span></td>
+
+          <td>$<span id="total">0</span></td>
+        </tr>
+      </table>
+
+      <div class="cart-buttons">
+        <button id="emptycart">Empty Cart</button>
+        <button id="checkout">Checkout</button>
+      </div>
+    </div>
+    <div class="productcont">
+      <div class="product">
+        <h3 class="productname">Processador AMD Ryzen 7 5700X3D</h3>
+        <p>- Nº de núcleos de CPU: 8 <br>
+          - Nº de threads: 16 <br>
+          - Clock de Max Boost: Até 4.1GHz <br>
+          - Clock básico: 3,0 GHz <br>
+          - Total de Cache L1: 512 KB <br>
+          - Total de Cache L2: 4MB <br>
+          - Cachê L3 total: 96MB <br>
+          - TDP / TDP Padrão: 105W</p>
+        <p class="price">$ 1.499,99</p>
+        <button class="addtocart">Adicionar ao carrinho</button>
+      </div>
+      <div class="product">
+        <h3 class="productname">Placa de Vídeo RTX4060 GALAX</h3>
+        <p>Especificações do mecanismo de GPU: <br>
+          - Núcleos CUDA: 3072 <br>
+          - Relógio de impulso: 2475MHz <br>
+          - 1-Click OC Clock: 2490MHz <br>
+          <br>
+          Especificações de memória: <br>
+          - Velocidade da memória: 17 Gbps <br>
+          - Configuração de memória padrão: 8GB <br>
+          <br>
+          Dimensões: <br>
+          - Dimensões (com suporte): 251 * 133 * 41mm <br>
+          - Dimensões (sem suporte): 237 * 118 * 41mm <br>
+        </p>
+        <p class="price">$ 2.189,99</p>
+        <button class="addtocart">Adicionar ao carrinho</button>
+      </div>
+      <div class="product">
+        <h3 class="productname">Placa de Vídeo RTX 4090 Asus NVIDIA TUF</h3>
+        <p>Especificações do mecanismo de GPU: <br>
+          - Núcleos CUDA: 16384 <br>
+          - Modo de jogo: 2565 MHz <br>
+          - Modo OC: 2595 Mhz <br>
+          <br>
+          Especificações de memória: <br>
+          - Velocidade da memória: 21 Gbps <br>
+          - Memória de vídeo: 24 GB GDDR6X <br>
+          <br>
+          Dimensões: <br>
+          - Dimensões: 348,2 x 150 x 72,6 milímetros <br>
+        </p>
+        <p class="price">$ 13.556,99</p>
+        <button class="addtocart">Adicionar ao carrinho</button>
+      </div>
+      <div class="product">
+        <h3 class="productname">Placa Mãe Asus ROG Strix B550-F Gaming II, AMD AM4</h3>
+        <p>Fator de forma: <br>
+          - Tipo: ATX <br>
+          - Dimensões: 30,5 x 24,4 cm <br>
+          <br>
+          CPU: <br>
+          - Processadores AMD Ryzen Série 5000 <br>
+          <br>
+          Chipset: <br>
+          - AMD B550 <br>
+        </p>
+        <p class="price">$ 1.598,99</p>
+        <button class="addtocart">Adicionar ao carrinho</button>
+      </div>
+    </div>
+  </div>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>
