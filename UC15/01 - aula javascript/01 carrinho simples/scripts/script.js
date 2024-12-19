@@ -83,13 +83,13 @@ function updateCartTotal() {
       //convert each JSON product in array back into object
       var x = JSON.parse(cart[i]);
       //get property value of price
-      price = parseFloat(x.price.split("$")[1]);
+      price = parseFloat(x.price.split("R$")[1]);
       productname = x.productname;
       //add price to total
       carttable +=
         "<tr><td>" +
         productname +
-        "</td><td>$" +
+        "</td><td>R$" +
         price.toFixed(2) +
         "</td></tr>";
       total += price;
